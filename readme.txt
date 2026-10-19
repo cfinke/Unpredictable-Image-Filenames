@@ -1,7 +1,7 @@
 === Unpredictable Image Filenames ===
 Requires at least: 4.7
 Tested up to: 7.1.3
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 
 Images uploaded from cameras can have predictable (and guessable) filenames. Prevent predictable filenames. Use Unpredictable Image Filenames.
