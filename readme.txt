@@ -4,7 +4,7 @@ Tested up to: 7.1.3
 Stable tag: 1.0
 License: GPLv2 or later
 
-Images uploaded from cameras can have predictable (and guessable) filenames. Prevent predictable filenames. Use Unpreditable Image Filenames.
+Images uploaded from cameras can have predictable (and guessable) filenames. Prevent predictable filenames. Use Unpredictable Image Filenames.
 
 == Description ==
 
