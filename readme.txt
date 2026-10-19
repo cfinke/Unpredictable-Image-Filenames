@@ -14,6 +14,11 @@ The Unpredictable Image Filenames plugin renames image files when you upload the
 
 == Changelog ==
 
+= 1.1 =
+
+* Fixed a bug causing a warning on filenames without extensions.
+* Fixed a bug causing non-image files to be renamed.
+
 = 1.0 =
 
 * Initial release.

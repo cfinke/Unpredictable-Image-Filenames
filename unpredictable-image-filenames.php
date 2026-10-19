@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Unpredictable Image Filenames
  * Description: Images uploaded from cameras can have predictable (and guessable) filenames. Prevent predictable filenames. Use Unpreditable Image Filenames.
- * Version: 1.1a1
+ * Version: 1.1a2
  * Author: Christopher Finke
  * Author URI: http://www.chrisfinke.com/
  * Author Email: cfinke@gmail.com
@@ -33,7 +33,11 @@ class Unpredictable_Image_Filenames {
 			mt_rand( 0, 65535 ),
 			mt_rand( 0, 65535 ),
 			mt_rand( 0, 65535 )
-		) . "." . $filetype['ext'];
+		);
+
+		if ( ! empty( $filetype['ext'] ) ) {
+			$file['name'] .= "." . $filetype['ext'];
+		}
 
 		return $file;
 	}
