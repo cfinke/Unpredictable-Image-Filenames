@@ -1,5 +1,5 @@
 === Unpredictable Image Filenames ===
-Requires at least: 4.3
+Requires at least: 4.7
 Tested up to: 7.1.3
 Stable tag: 1.0
 License: GPLv2 or later
